@@ -1,10 +1,17 @@
-fn pattern_tupple(tuple: (i32,i32,i32,i64)) {
+fn pattern_tupple(tuple: (i32,i32,i32,i32)) {
     let first = tuple.0;
     let second = tuple.1;
     let third = tuple.2;
     let fourth = tuple.3;
     println!("first: {first}, second: {second}, third: {third}, fourth: {fourth}")
 }
+
+
+fn main() {
+    let mutex = (45,68,93,68);
+    pattern_tupple(mutex);
+}
+
 
 // fn main() {
 //     println!("hello ");

@@ -18,7 +18,7 @@
      #[rustfmt::skip] // Skip rustfmt formatting for the following code block
      fn main() {
           
-         let input = 'a'; // Declare a variable 'input' with a character 'x'
+         let input = '9'; // Declare a variable 'input' with a character 'a'
      
          match input { // Start a match expression to handle different cases for the variable 'input'
              'q'                       =>  println!("quitting the value"), // If 'input' is 'q', print "quitting the value"
